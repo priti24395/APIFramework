@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: cucumberOptions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.774 sec <<< FAILURE!
+verify if Delete Place functionality is working(Validating place API's)  Time elapsed: 3.334 sec  <<< ERROR!
+java.lang.IllegalArgumentException: No enum constant resources.APIResources.AddPlaceAPI
+	at java.lang.Enum.valueOf(Enum.java:238)
+	at resources.APIResources.valueOf(APIResources.java:1)
+	at stepDefinitions.StepDefinition.user_calls_with_http_request(StepDefinition.java:54)
+	at stepDefinitions.Hooks.beforeScenario(Hooks.java:19)
+
